@@ -1,0 +1,19 @@
+<h2>Employee's Full Details</h2>
+<table class="table table-striped">
+    <thead>
+      <tr class="bg-primary">
+        <th scope="col">ID</th>
+        <th scope="col">FIRST NAME</th>
+        <th scope="col">LAST NAME</th>
+        <th scope="col">EMAIL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of Employee3;">
+        <td>{{ employee.id}}</td>
+        <td>{{ employee.firstname}}</td>
+        <td>{{ employee.lastname}}</td>
+        <td>{{ employee.email}}</td>
+      </tr>
+    </tbody>
+  </table>

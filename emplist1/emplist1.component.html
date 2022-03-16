@@ -1,0 +1,17 @@
+<table class="table table-striped">
+    <thead class="thead-dark">
+      <tr class="bg-primary">
+        <th scope="col">ID</th>
+        <th scope="col">FIRST NAME</th>
+        <th scope="col">LAST NAME</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of Employee1;">
+        <td class="bg-success">{{ employee.id }}</td>
+        <td class="bg-info">{{ employee.firstname }}</td>
+        <td class="bg-danger">{{ employee.lastname }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

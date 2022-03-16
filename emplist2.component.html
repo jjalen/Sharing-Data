@@ -1,0 +1,15 @@
+<h2>Employee Email's</h2>
+<table class="table table-white">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of Employee2;">
+        <td>{{ employee.id}}</td>
+        <td>{{ employee.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+
